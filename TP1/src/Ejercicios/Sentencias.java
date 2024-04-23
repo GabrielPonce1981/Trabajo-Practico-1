@@ -8,17 +8,17 @@ public class Sentencias {
     static Scanner ingreso = new Scanner(System.in);
 
 
-    public void imprimir()
-    {
-        int numero=100;
-        do
-        {
-            System.out.print(numero + " - ");
-            numero= numero-1;
+    // public void imprimir()
+    // {
+    //     int numero=100;
+    //     do
+    //     {
+    //         System.out.print(numero + " - ");
+    //         numero= numero-1;
            
-        }while(numero!=0);
-        System.out.println("\n");
-    }
+    //     }while(numero!=0);
+    //     System.out.println("\n");
+    // }
 
     public void calcularFactorial(int num)
     {

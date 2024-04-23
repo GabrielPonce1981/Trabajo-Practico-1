@@ -11,6 +11,8 @@ import Ejercicios.CondicionalesEjercicio7;
 import Ejercicios.CondicionalesEjercicio8;
 import Ejercicios.CondicionalesEjercicio9;
 import Ejercicios.CondicionalesEjercicio10;
+import Ejercicios.SentenciaEjercicio11;
+import Ejercicios.SentenciaEjercicio12;
 
 
 public class App {
@@ -28,8 +30,8 @@ public class App {
             System.out.println("5. Ejercicio 8 - Condicionales");
             System.out.println("6. Ejercicio 9 - Condicionales");
             System.out.println("7. Ejercicio 10 - Condicionales");
-            System.out.println("");
-            System.out.println("");
+            System.out.println("8. Ejercicio 11 - Sentencia");
+            System.out.println("9. Ejercicio 12 - Sentencia");
             System.out.println("");
             System.out.println("");
             System.out.println("");
@@ -138,10 +140,24 @@ public class App {
                        
                     break;
                 case 8:
-                break;
+                    SentenciaEjercicio11 sent1Ejercicio11 = new SentenciaEjercicio11();
+
+                    System.out.println("Imprimendo numeros desde 100 a 1");
+
+                    sent1Ejercicio11.imprimir();
+
+                    break;
                 case 9:
-                break;
+                    SentenciaEjercicio12 sent1Ejercicio12 = new SentenciaEjercicio12();
+                    
+                    System.out.print("Ingrese un numero para calcular el factorial: ");    
+                    int numero = ingreso.nextInt(); 
+
+                    sent1Ejercicio12.calcularFactorial(numero);
+                    
+                    break;
                 case 10:
+
                 break;
                 case 11:
                 break;
