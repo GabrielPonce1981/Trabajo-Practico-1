@@ -13,6 +13,7 @@ import Ejercicios.CondicionalesEjercicio9;
 import Ejercicios.CondicionalesEjercicio10;
 import Ejercicios.SentenciaEjercicio11;
 import Ejercicios.SentenciaEjercicio12;
+import Ejercicios.SentenciaEjercicio13;
 
 
 public class App {
@@ -151,14 +152,15 @@ public class App {
                     SentenciaEjercicio12 sent1Ejercicio12 = new SentenciaEjercicio12();
                     
                     System.out.print("Ingrese un numero para calcular el factorial: ");    
-                    int numero = ingreso.nextInt(); 
+                    int num = ingreso.nextInt(); 
 
-                    sent1Ejercicio12.calcularFactorial(numero);
+                    sent1Ejercicio12.calcularFactorial(num);
                     
                     break;
                 case 10:
-
-                break;
+                    SentenciaEjercicio13 sent1Ejercicio13 = new SentenciaEjercicio13();
+                    sent1Ejercicio13.mostrarnumeros();
+                     break;
                 case 11:
                 break;
                 case 12:
