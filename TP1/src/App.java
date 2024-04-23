@@ -32,7 +32,7 @@ public class App {
             System.out.println("7. Ejercicio 10 - Condicionales");
             System.out.println("8. Ejercicio 11 - Sentencia");
             System.out.println("9. Ejercicio 12 - Sentencia");
-            System.out.println("");
+            System.out.println("10 Ejercicio 13 - Sentencia");
             System.out.println("");
             System.out.println("");
             System.out.println("");
